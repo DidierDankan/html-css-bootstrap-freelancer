@@ -14,8 +14,11 @@
 }
 
 .bg-dark-blue {
-    /* height: 60px; */
     background: #2C3E50;
+}
+
+.test-line-height {
+    line-height: 3rem;
 }
 
 .bg-white {
@@ -29,13 +32,13 @@
 }
 
 .bg-light-blue {
-    /* height: 500px; */
+    height: 400px;
    background: #1ABC9C; 
 }
 
-.bg-light-grey {
+/* .bg-light-grey {
     background-color: #eee;
-}
+} */
 
 .bg-dark-ocean-blue {
     height: 300px;
