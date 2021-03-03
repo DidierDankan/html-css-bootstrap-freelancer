@@ -14,7 +14,7 @@
 }
 
 .bg-dark-blue {
-    height: 60px;
+    /* height: 60px; */
     background: #2C3E50;
 }
 
@@ -28,13 +28,8 @@
     background-color: #fff;
 }
 
-/* .bg-white3 {
-    height: 600px;
-    background-color: #fff;
-} */
-
 .bg-light-blue {
-    height: 500px;
+    /* height: 500px; */
    background: #1ABC9C; 
 }
 
