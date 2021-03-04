@@ -2,11 +2,16 @@
 
 /* UTILITIES */
 .pic-box {
-    max-width: 430px;
+    max-width: 400px;
     height: 270px;
-    border-radius: 5px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.pic-box img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
 }
 
 .mb-20 {
@@ -15,10 +20,6 @@
 
 .bg-dark-blue {
     background: #2C3E50;
-}
-
-.test-line-height {
-    line-height: 3rem;
 }
 
 .bg-white {
@@ -35,10 +36,6 @@
    background: #1ABC9C; 
 }
 
-/* .bg-light-grey {
-    background-color: #eee;
-} */
-
 .bg-dark-ocean-blue {
     height: 300px;
     background-color: #3A546D;
@@ -46,36 +43,6 @@
 
 .colered-dark-blue {
    color: #2C3E50;
-}
-
-.bg-dark-pink {
-   background-color: #BA4B63;
-   border-radius: 5px; 
-}
-
-.bg-vrylight {
-    background-color: #1EA4B6;
-    border-radius: 5px; 
-}
-
-.bg-black {
-    background-color: #140F0F; 
-    border-radius: 5px;
-}
-
-.bg-sky {
-    background-color: #1C83C1;
-    border-radius: 5px;
-}
-
-.bg-ocean {
-    background-color: #0E38B5;
-    border-radius: 5px;
-}
-
-.bg-light-pink {
-    background-color: #CCB2A3;
-    border-radius: 5px;
 }
 
 /* header */
@@ -128,6 +95,7 @@
 .hero-li {
     padding-top: 1.7rem;
     padding-left: 0;
+    margin-bottom: 30px;
     list-style: none;
 }
 
@@ -136,3 +104,32 @@
     font-weight: 700;
 }
 
+/* PORTAFOGLIO */
+.bg-white3 .container .row .bg-white {
+    text-align: center;
+}
+
+.bg-white3 .container .row .port-header {
+    text-transform: uppercase;
+    height: 150px;
+    padding-top: 30px;
+}
+
+.bg-white3 .container .row .star-over {
+    color: #2C3E50;
+    background-color: #fff;
+}
+
+.bg-white3 .container .row .hr-fix {
+    border-color: #2C3E50;
+}
+
+/* ABOUT */
+
+.colored-white {
+    color: #fff;
+}
+
+.new-btn {
+    background-color: transparent;
+}
