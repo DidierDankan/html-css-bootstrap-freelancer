@@ -32,7 +32,6 @@
 }
 
 .bg-light-blue {
-    height: 400px;
    background: #1ABC9C; 
 }
 
@@ -91,3 +90,49 @@
 .navbar-default .navbar-brand {
     color: #fff;
 }
+
+/* MAIN */
+/* hero */
+.container .row .hero-fix {
+    max-height: 200px;
+}
+
+.container .row .text-white {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+/* star over line */
+.star-holder {
+    position: relative;
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.star-over {
+    position: absolute;
+    padding: 5px;
+    left: 50%;
+    top: 50%;
+    background: #1ABC9C;
+    font-size: 3rem;
+    transform: translate(-50%, -50%);
+}
+
+.hr-fix {
+    border-bottom: 3px solid #fff;
+    border-radius: 2px;
+}
+
+/* ul header */
+.hero-li {
+    padding-top: 1.7rem;
+    padding-left: 0;
+    list-style: none;
+}
+
+.hero-li li {
+    display: inline-block;
+    font-weight: 700;
+}
+
