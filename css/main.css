@@ -78,3 +78,16 @@
     background-color: #CCB2A3;
     border-radius: 5px;
 }
+
+/* header */
+.nav-colored {
+    margin-bottom: 0;
+    background-color: #2C3E50;
+    text-transform: uppercase;
+    border-radius: 0;
+}
+
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-brand {
+    color: #fff;
+}
