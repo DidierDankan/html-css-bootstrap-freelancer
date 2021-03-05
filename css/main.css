@@ -1,19 +1,4 @@
-/* THE HEIGHT IS TO SIMULATE CONTENT */
-
 /* UTILITIES */
-.pic-box {
-    max-width: 400px;
-    height: 270px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.pic-box img {
-    width: 100%;
-    height: 100%;
-    border-radius: 5px;
-}
-
 .mb-20 {
     margin-bottom: 1.8rem;
 }
@@ -26,17 +11,27 @@
     padding-top: 3rem;
 }
 
+.pad-bot {
+    padding-bottom: 3rem;
+}
+
+.font-weight-fix {
+    font-weight: 800;
+}
+
+.font-size-h1 {
+    font-size: 2.7rem;
+}
+
 .bg-dark-blue {
     background: #2C3E50;
 }
 
 .bg-white {
-    height: 180px;
     background-color: #fff;
 }
 
 .bg-white2 {
-    /* height: 450px; */
     background-color: #fff;
 }
 
@@ -45,7 +40,6 @@
 }
 
 .bg-dark-ocean-blue {
-    height: 300px;
     background-color: #3A546D;
 }
 
@@ -62,14 +56,24 @@
 }
 
 .navbar-default .navbar-nav > li > a,
-.navbar-default .navbar-brand {
+.navbar-default .navbar-brand,
+.bg-dark-ocean-blue {
     color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #1ABC9C;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #1ABC9C;
 }
 
 /* MAIN */
 /* hero */
 .container .row .hero-fix {
-    max-height: 200px;
+    padding-top: 2rem;
+    max-height: 250px;
 }
 
 .container .row .text-white {
@@ -131,6 +135,19 @@
     border-color: #2C3E50;
 }
 
+.pic-box {
+    max-width: 400px;
+    max-height: 280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pic-box img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
 /* ABOUT */
 .colored-white {
     color: #fff;
@@ -139,6 +156,12 @@
 .new-btn {
     border-color: #fff;
     background-color: transparent;
+}
+
+.change-btn .btn-default:hover {
+    color: #1abc9c;
+    background-color: #fff;
+    border-color: #fff;
 }
 
 /* CONTACT ME */
@@ -170,3 +193,38 @@
     background-color: #1abc9c;
     border-color: #1abc9c;
 }
+
+.btn-fix2.btn-default:hover {
+    color:#fff;
+    background-color: #13947a;
+    border-color: #13947a;
+}
+
+/* AROUND THE WEB footer*/
+/* around the web */
+.bg-dark-ocean-blue .container .row ul {
+    padding-left: 0;
+}
+
+.bg-dark-ocean-blue .container .row ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+.btn-new3 {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    margin-left: 5px;
+    line-height: 33px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+/* about freelancer */
+.span-colored {
+    color: #1abc9c;
+}
+
+/* MEDIA QUERY */
+
