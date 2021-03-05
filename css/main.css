@@ -15,6 +15,10 @@
     padding-bottom: 3rem;
 }
 
+.boddy-pad {
+    padding-top: 60px;;
+}
+
 .font-weight-fix {
     font-weight: 800;
 }
@@ -67,6 +71,12 @@
 
 .navbar-default .navbar-brand:hover {
     color: #1ABC9C;
+}
+
+.nav-bar-fixed {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
 }
 
 /* MAIN */
