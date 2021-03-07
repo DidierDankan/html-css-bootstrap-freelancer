@@ -79,7 +79,7 @@
 .nav-bar-fixed {
     position: fixed;
     width: 100%;
-    z-index: 2;
+    z-index: 3;
 }
 
 /* MAIN */
@@ -165,19 +165,36 @@
 /* layover TEST with icon on pic */
 .layover-icon {
     position: absolute;
-    opacity: 1;
+    opacity: 0;
     left: 0;
     top: 0;
     right: 0;
     bottom: 0;
-    text-align: center;
-    line-height: 7;
-    font-size: 4rem;
-    color: #fff;
     border-radius: 5px;
-    background-color: rgba(255, 255, 255, .3);
-    z-index: 2;
+    background-color: rgba(255, 255, 255, .4);
+    transition: opacity .4s ease-in-out;
+    cursor: pointer;
 }
+
+.layover-icon:hover {
+    opacity: 1;
+}
+
+.icon {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    font-size: 4rem;
+    color: rgb(168, 118, 10);
+    transform: translate(-50%, 0);
+    transition: bottom .4s;
+}
+
+.layover-icon:hover .icon {
+    bottom: 50%;
+    transform: translate(-50%, 50%);
+}
+
 /* END LAYOVER TEST */
 
 /* ABOUT */
